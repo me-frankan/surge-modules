@@ -1,6 +1,5 @@
 #!name=Auto Reconnect
 #!desc=网络变化时自动 flush DNS + reload profile，修复 sleep/wake 后 NE 隧道断开不恢复
-#!category=Enhancements
 
 [Script]
 network-changed = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/me-frankan/surge-modules/main/auto-reconnect.js,timeout=30
